@@ -1,17 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.blendiff{
+
+.blendiff {
   mix-blend-mode: difference;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: 'Outfit', sans-serif;
   background-color: black;
+}
+
+#hoverEffectOne:hover p {
+  background-color: var(--tw-color-secondary);
+  color: black;
+}
+* p span{
+  white-space: pre;
 }

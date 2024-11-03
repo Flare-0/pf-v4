@@ -10,12 +10,14 @@ export default {
         'white': '#ffffff',
         'black': '#000',
         'primary': '#5500FF',
+        'secondary': '#AAFF00',
       },
 
       fontFamily: {
-        'abril': ['"Abril Fatface"', 'serif'],
+        'outfit': ['"Outfit"', 'serif'],
         'montserrat': ['"Montserrat"', 'sans-serif'],
         'space-mono': ['"Space Mono"', 'monospace'],
+        'pixi': ['"spacepixi"', 'monospace'],
       },
     },
   },
